@@ -1,0 +1,41 @@
+
+
+.wp-downloadcounter-chart {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.wp-downloadcounter-chart th{
+	padding: 3px 10px;
+	text-align: left;
+	font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-size: 13px;
+	line-height: 1.7em;
+}
+.wp-downloadcounter-chart th.dcc-count, .wp-downloadcounter-chart td.dcc-count {
+	text-align: right;
+}
+
+.wp-downloadcounter-chart tbody td {
+	padding: 3px 10px;
+	font-size: 11px;
+	vertical-align: middle;
+}
+
+.wp-downloadcounter-chart tr.even td {
+	background: #f1f1f1;
+}
+
+.wp-downloadcounter-chart tr.odd td {
+	background: #ffffff;
+}
+
+.wp-downloadcounter-chart tr td a { 
+	font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-size: 13px;
+	line-height: 1.7em;
+}
+
+.wp-downloadcounter-chart-warning {
+	color: #F53D00;
+}
